@@ -49,9 +49,8 @@ ul.top-nav li {
     stroke: 1px solid #000;
     padding: 0 0 0 15px;
     font-weight: bold;
-
 }
-ul.top-nav li:hover {
+ul.top-nav li:hover{
     transform: scale(1.1);
     color: #ff9900;
 }
@@ -132,6 +131,10 @@ div.image {
     left: 660px;
     top: 128px;
 }
+div.image:hover{
+    transform: rotate(6deg);
+    transition: 2.5s;
+}
 header img.ppl {
     position: absolute;
     width: 605px;
@@ -160,6 +163,9 @@ h1 {
     line-height: 54px;
     /* or 123% */
     color: #2F281E;
+}
+h1 span:hover{
+    color:#FF9900;
 }
 button.get {
     position: absolute;
@@ -240,12 +246,29 @@ div.d4 {
     left: 1422px;
     top: 162px;
 }
+img.blue{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+img.blue:hover{
+    visibility: hidden;
+    cursor: crosshair;
+}
 div.d3 {
     position: absolute;
     width: 240px;
     height: 178px;
     left: 1138px;
     top: 162px;
+}
+img.red{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+img.red:hover{
+    top: -20px;
 }
 div.d2 {
     position: absolute;
@@ -254,12 +277,29 @@ div.d2 {
     left: 853px;
     top: 162px;
 }
+img.yellow{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+img.yellow:hover{
+    transform: scale(0.5);
+    transition: 1.5s;
+}
 div.d1 {
     position: absolute;
     width: 240px;
     height: 178px;
     left: 567px;
     top: 162px;
+}
+img.purple{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+img.purple:hover{
+    left: 100px;
 }
 div.d1 h1 {
     position: absolute;
@@ -408,10 +448,10 @@ div.text {
     left: 145px;
     top: 1423px;
 }
-div.text h1 {
+div.text h2 {
     position: absolute;
     height: 54px;
-    left: -229px;
+    left: -129px;
     right: 0;
     top: calc(50% - 54px/2 - 1624.5px);
     font-family: 'Poppins', sans-serif;
@@ -421,6 +461,10 @@ div.text h1 {
     line-height: 54px;
     /* identical to box height */
     color: #2F281E;
+}
+div.text h2:hover{
+    transform: rotate(18deg);
+    transition: 2s;
 }
 p.p1 {
     position: absolute;
@@ -458,6 +502,10 @@ img.design {
     right: -600px;
     left: 0;
     top: -20px;
+}
+img.design:hover{
+    transform: rotate(-6deg);
+    transition: 2.5s;
 }
 div.dd1 {
     position: absolute;
