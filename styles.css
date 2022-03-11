@@ -33,8 +33,7 @@ ul.top-nav {
     list-style: none;
     position: absolute;
     height: 28px;
-    left: 46.43%;
-    right: 28.57%;
+    left: 658px;
     top: calc(50% - 28px/2 - 1px);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -60,8 +59,7 @@ ul.top-nav li:hover{
     position: absolute;
     left: 1029px;
     right: 269px;
-    top: 19.23%;
-    bottom: 21.79%;
+    top: 15px;
     color: #000;
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
@@ -85,8 +83,7 @@ ul.top-nav li:hover{
     position: absolute;
     left: 1145px;
     right: 145px;
-    top: 19.23%;
-    bottom: 21.79%;
+    top: 15px;
     border-radius: 4px;
     font-weight: bold;
 }
@@ -108,12 +105,10 @@ div.left {
     height: 331px;
     left: -128px;
     top: -124px;
-    bottom: 1906px;
 }
 header p {
     position: absolute;
     width: 458px;
-    height: 95px;
     left: 145px;
     top: 349px;
     font-family: 'Poppins', sans-serif;
@@ -121,13 +116,10 @@ header p {
     font-weight: normal;
     font-size: 18px;
     line-height: 28px;
-    /* or 156% */
     color: #544837;
 }
 div.image {
     position: absolute;
-    width: 605px;
-    height: 496px;
     left: 660px;
     top: 128px;
 }
@@ -161,7 +153,6 @@ h1 {
     font-weight: 700;
     font-size: 44px;
     line-height: 54px;
-    /* or 123% */
     color: #2F281E;
 }
 h1 span:hover{
@@ -221,8 +212,7 @@ button.tri img:hover {
 .feature h1 {
     position: absolute;
     height: 96px;
-    left: 38.22%;
-    right: 37.4%;
+    left: 858px;
     top: calc(50% - 96px/2 - 211.5px);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -236,8 +226,6 @@ div.card {
     position: absolute;
     width: 1095px;
     height: 204px;
-    left: 0px;
-    top: 0px;
 }
 div.d4 {
     position: absolute;
@@ -312,105 +300,82 @@ div.d1 h1 {
     font-weight: 600;
     font-size: 22px;
     line-height: 33px;
-    /* identical to box height */
     color: #2F281E;
 }
 div.d1 p {
     position: absolute;
-    left: 0%;
-    right: 0%;
     top: 108px;
-    bottom: 0%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
     color: #544837;
 }
 div.d2 h1 {
     position: absolute;
     height: 33px;
     left: -175px;
-    right: 0;
     top: calc(50% - 33px/2 - 0.5px);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
     line-height: 33px;
-    /* identical to box height */
     color: #2F281E;
 }
 div.d2 p {
     position: absolute;
-    left: 0;
-    right: 0%;
     top: 108px;
-    bottom: 0%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
     color: #544837;
 }
 div.d3 h1 {
     position: absolute;
     height: 33px;
     left: -170px;
-    right: 0;
     top: calc(50% - 33px/2 - 0.5px);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
     line-height: 33px;
-    /* identical to box height */
     color: #2F281E;
 }
 div.d3 p {
     position: absolute;
-    left: 0;
-    right: 0;
     top: 108px;
-    bottom: 0;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
     color: #544837;
 }
 div.d4 h1 {
     position: absolute;
     height: 33px;
     left: -165px;
-    right: 0;
     top: calc(50% - 33px/2 - 15.5px);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
     line-height: 33px;
-    /* identical to box height */
     color: #2F281E;
 }
 div.d4 p {
     position: absolute;
-    left: 0%;
-    right: 0%;
     top: 108px;
-    bottom: 0%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
     color: #544837;
 }
 button.up {
@@ -452,14 +417,12 @@ div.text h2 {
     position: absolute;
     height: 54px;
     left: -129px;
-    right: 0;
     top: calc(50% - 54px/2 - 1624.5px);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 54px;
-    /* identical to box height */
     color: #2F281E;
 }
 div.text h2:hover{
@@ -470,37 +433,31 @@ p.p1 {
     position: absolute;
     height: 24px;
     left: -129px;
-    right: 0;
     top: calc(50% - 24px/2 - 1677.5px);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
     color: #544837;
 }
 p.p2 {
     position: absolute;
     width: 436px;
-    left: -313px;
-    right: 0;
+    left: -130px;
     top: calc(50% - 24px/2 - 1561.5px);
-    bottom: 65.91%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
     color: #544837;
 }
 img.design {
     position: absolute;
     width: 520px;
     height: 574px;
-    right: -600px;
-    left: 0;
+    right: 0;
     top: -20px;
 }
 img.design:hover{
@@ -525,7 +482,6 @@ div.dd1 h1 {
     font-weight: bold;
     font-size: 16px;
     line-height: 26px;
-    /* identical to box height, or 162% */
     color: #2F281E;
 }
 p.pp1 {
@@ -533,13 +489,11 @@ p.pp1 {
     width: 458px;
     left: -140px;
     top: -1202px;
-    bottom: 10px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
     color: #544837;
 }
 div.dd2 h1 {
@@ -553,7 +507,6 @@ div.dd2 h1 {
     font-weight: bold;
     font-size: 16px;
     line-height: 26px;
-    /* identical to box height, or 162% */
     color: #2F281E;
 }
 p.pp2 {
@@ -561,13 +514,11 @@ p.pp2 {
     width: 460px;
     left: -131px;
     top: -1056px;
-    bottom: 10px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
     color: #544837;
 }
 div.dd3 h1 {
@@ -576,12 +527,10 @@ div.dd3 h1 {
     left: -172px;
     right: 56px;
     top: calc(50% - 26px/2 - 1241px);
-    font-family: Poppins;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 16px;
     line-height: 26px;
-    /* identical to box height, or 162% */
     color: #2F281E;
 }
 p.pp3 {
@@ -590,13 +539,11 @@ p.pp3 {
     left: -276px;
     right: 10px;
     top: -947px;
-    bottom: 10px;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
     color: #544837;
 }
 footer {
@@ -609,8 +556,6 @@ footer {
 }
 img.footer {
     position: absolute;
-    width: 184.35px;
-    height: 31.97px;
     right: 927px;
     top: 90px;
 }
@@ -625,15 +570,13 @@ div.quick ul {
     position: absolute;
     list-style: none;
     height: 140px;
-    left: 0%;
-    right: 38.98%;
+    right: 35px;
     top: calc(50% - 140px/2 + 32.5px);
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 35px;
-    /* or 219% */
     color: #544837;
 }
 div.quick ul li:hover {
@@ -663,15 +606,14 @@ div.legal ul {
     position: absolute;
     list-style: none;
     height: 140px;
-    left: 0%;
-    right: 38.98%;
+    left: 0;
+    right: 35px;
     top: calc(50% - 140px/2 + 32.5px);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 35px;
-    /* or 219% */
     color: #544837;
 }
 div.legal ul li:hover {
@@ -701,15 +643,13 @@ div.deal h1 {
     position: absolute;
     width: 285px;
     height: 57px;
-    left: 0%;
-    right: 13.85%;
+    left: 0;
     top: calc(50% - 57px/2 - 2133px);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;
-    /* or 150% */
     color: #2F281E;
 }
 div.deal input {
